@@ -14,4 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo athene-userdebug
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aquarios.mk \
+    $(LOCAL_DIR)/bt_athene.mk
